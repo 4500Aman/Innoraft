@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color:rgba(255,77,166,255);
+  padding: 80px;
+}
+
+.column {
+  float: left;
+  border: 15px solid white;
+  height: 400px;
+  padding: 10px;
+}
+
+.column.left {
+  width: 75%;
+  background-color: rgba(255,3,126,255);
+}
+
+.column.right {
+  width: 25%;
+  background-color: rgba(206,4,104,255);
+}
+
+.footer {
+  background-color: rgba(128,39,85,255);
+  padding-top: 140px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+  <div class="header"></div>
+
+  <div class="row">
+    <br>
+    <div class="column left"></div>
+    <div class="column right"></div>
+  </div>
+  
+  <div class="footer"></div>
+  
+</body>
+</html>
