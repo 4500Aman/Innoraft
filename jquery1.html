@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jquery Task 1</title>
+    <script src="jquery.js"></script>
+</head>
+
+<style>
+    #box {
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 40px;
+    }
+
+    button {
+        color: black;
+        background-color: #ffffff;
+        border: 2px solid black;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+</style>    
+
+<body>
+    <div id="box"></div>
+    <h3>Hide the red box on button click</h3>
+    <button>Click me</button>
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#box").toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>
