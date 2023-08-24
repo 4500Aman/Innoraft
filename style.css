@@ -40,7 +40,7 @@ nav {
 .page1 {
     min-height: 100vh;
     display: flex;
-    background-image: url(./images/img-1.jpg);
+    background-image: url(img-1.jpg);
     background-size: cover;
     position: relative;
     align-content: center;
@@ -160,7 +160,7 @@ h2 {
 .page3 {
 
     display: flex;
-    background-image: url(./images/img-2.jpg);
+    background-image: url(img-2.jpg);
     position: relative;
     align-content: center;
     justify-content: center;
@@ -278,7 +278,7 @@ main {
 
 
 .page5 {
-    background-image: url(./images/img-4.jpg);
+    background-image: url(img-4.jpg);
     display: flex;
     position: relative;
     align-content: center;
@@ -376,7 +376,7 @@ main {
 
 .page7 {
     display: flex;
-    background-image: url(./images/img-3.jpg);
+    background-image: url(img-3.jpg);
     position: relative;
 
 
